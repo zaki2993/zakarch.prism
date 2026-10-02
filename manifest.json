@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "zakarch.prism",
+  "name": "Prism",
+  "version": "1.0.0",
+  "author": "zakaryae",
+  "license": "MIT",
+  "description": "Window border studio: spinning gradients, real glow, breathing borders, focus dimming, custom palettes and saved looks.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Prism",
+    "description": "Window borders: palettes, shape, glow, spin, breathe and looks",
+    "category": "Appearance",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
